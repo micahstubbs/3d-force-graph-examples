@@ -2,10 +2,8 @@ this iteration changes the dataset, showing the d3 blocks citation [dataset](htt
 
 ---
 
-this iteration makes the code nice to work with
+the original example from https://github.com/vasturiano/3d-force-graph/blob/master/example/click-to-focus/index.html
 
 ---
 
-the original example from https://github.com/vasturiano/3d-force-graph/blob/master/example/click-to-focus/index.html
-
-
+in repo form at [3d-force-graph-experiments](https://github.com/micahstubbs/3d-force-graph-examples/tree/master/click-to-focus/02)
