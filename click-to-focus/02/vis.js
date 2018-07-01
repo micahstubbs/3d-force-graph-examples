@@ -2,7 +2,7 @@ const elem = document.getElementById('3d-graph')
 
 const Graph = ForceGraph3D()(elem)
   .jsonUrl('blocks-citation-graph.json')
-  .nodeLabel('description')
+  .nodeLabel(node => `${node.description} from ${node.user}`)
   .nodeAutoColorBy('user')
   .onNodeHover(node => (elem.style.cursor = node ? 'pointer' : null))
   .onNodeClick(node => {
